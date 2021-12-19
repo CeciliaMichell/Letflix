@@ -1,0 +1,30 @@
+.card img{
+    width: 250px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.judul-film{
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.hvrimg{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.img-card:hover .hvrimg{opacity: 0.3;}
+.bottom{
+    margin: 1%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #363636;
+    border-radius: 6px;
+}

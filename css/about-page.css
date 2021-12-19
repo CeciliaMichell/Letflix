@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main-header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 5%;
+}
+.ceo a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+.text-box{
+    background-color: #3636369a;
+    display: flex;
+    border: 1px solid #990F02;
+    border-radius: 10px;
+    padding: 2%;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.title-text{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-info{
+    display: flex;
+    align-items: center;
+}
+.text-nya{
+    text-indent: 30px;
+    width: 70%;
+    font-size: 130%;
+    text-align: justify;
+}
+.fontsz{
+    text-indent: 30px;
+    padding-top: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+.image-nya img{
+    width: 300px;
+    margin-left: 25%;
+}
+.more-text{
+    font-size: 1.2em;
+    padding: 8px 10px;
+    text-shadow: 0px 1px 1px rgba(94, 94, 94, 0.9);
+    margin-top:20px;
+	display: inline-block;
+	background:#94161a;
+	color: #FFF;
+	text-decoration: none;
+	border-radius:5px;
+	outline: 0;
+    transition:all 0.2s linear;
+    width: 8%;
+}
+.more-text:hover{
+	background:#CD1F25;
+    transform:scale(1.02);
+}
+.more-text a{
+    text-decoration: none;
+    color: white;
+}
+.ttd{
+    text-align: center;
+    padding-left: 85%;
+    font-size: 105%;
+}
+work-place{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url('../Assets/center-min.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.indent{
+    text-indent: 16px;
+}
+.work-bg{
+    background-color: white;
+}
+.info{
+    padding-top: 1%;
+    display: flex;
+    align-items: center;
+}
+.country{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.country img{
+    margin-right: 10px;
+    width: 25px;
+}
+.detail-work{
+    padding: 2%;
+    text-align: justify;
+}
+.detail-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-apply{
+    background-color: #990F02;
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 15%;
+}
+.button-apply a{
+    text-decoration: none;
+    color: white;
+}
+.button-apply:hover{
+	background:#CD1F25;
+    transform:scale(1.02);
+}
+culture-place{
+    background-image: url('../Assets/center-min.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.kartu-budaya{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+.kartu{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+.title-budaya{
+    margin: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.text-budaya{
+    margin: 5%;
+    text-align: justify;
+}
+invest-place{
+    background-image: url('../Assets/design8-min.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-invest{
+    margin: 2%;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 20%;
+}
+.info-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-in h1{
+    font-size: 5vw;
+}
+.info-in h3{
+    padding-top: 2%;
+    font-size: 3vw;
+}
+.info-in h4{
+    padding-top: 2%;
+    font-size: 100%;
+}
+.date-now{
+    padding-top: 10%;
+    font-size: 150%;
+}
+.cards{
+    padding-top: 13%;
+    display: flex;
+    justify-content: space-around;
+}
+.cards-invest{
+    display: flex;
+    flex-direction: column;
+    background-color: #990f02b9;
+    margin: 5px;
+    padding: 45px;
+    justify-content: center;
+    border-radius: 15px;
+}
+.cards-invest a{
+    text-decoration: none;
+    color: white;
+}
+.logo-invest{
+    display: flex;
+    justify-content: center;
+}

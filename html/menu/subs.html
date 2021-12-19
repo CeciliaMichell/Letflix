@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/main-page.js"></script>
+    <title>Subscription</title>
+</head>
+<body>
+    <nav-bar>
+        <div class="top">
+            <div class="logo">
+                <a href="../Mainpage.html"><img src="../../Assets/TheLetflixLogo.png" alt=""></a>
+            </div>
+            <div class="text-nav">
+                <a href="../Mainpage.html" class="button-nav">HOME</a>
+                <a href="../menu/about.html" class="button-nav">ABOUT</a>
+            </div>
+        </div>
+        <hr>
+    </nav-bar>
+    <main-subs>
+        <form action="">
+           <p class="textorder">Order Subscription</p>
+            <input type="text" id="username" placeholder="Type your username.."> <br>
+            <input type="password" id="password" placeholder="Type your password.."> <br>
+            <input type="text" id="email" placeholder="Type your email.."> <br>
+            <div class="jarak">
+                <label for="gender"></label>
+                <input type="radio" name="gender" id="mgender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="fgender">
+                <label for="female">Female</label>
+            </div>
+            <select name="subs" id="type">
+                <option value="" disabled selected hidden>Subscription Type :</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+                <option value="diamond">Diamond</option>
+            </select> <br>
+            <div class="cb">
+                <input type="checkbox" id="agree">
+                <label> I agree with terms and conditions</label>
+            </div>
+            <button type="submit" onclick="validate()" class="button-form">Buy</button>
+        </form>
+    </main-subs>
+    <hr>
+    <footer>
+        <div class="indonesia">
+            <div class="logo-ind">
+                <img src="../../Assets/Blueprint/Logo/ind.png" alt="">
+            </div>
+            <div class="text-ind">INDONESIA</div>
+        </div>
+        <div class="logo-sosmed">
+            <div class="logos">
+                <a href="https://www.instagram.com/"><img src="../../Assets/Blueprint/Logo/ig.png" alt=""></a>
+            </div>
+            <div class="logos">
+                <a href="https://www.facebook.com/"><img src="../../Assets/Blueprint/Logo/fb.png" alt=""></a>
+            </div>
+            <div class="logos">
+                <a href="https://www.youtube.com/"><img src="../../Assets/Blueprint/Logo/yt.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
